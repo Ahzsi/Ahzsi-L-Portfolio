@@ -4,10 +4,15 @@
 
 body {
   font-family: "monospace", sans-serif;
+  background-image: url(img/watercolor-drawing-frame-border-with-transparent-flowers-transparent-rose-flowers-and-eucalyptus-leaves-in-pastel-colors-pink-blue-purple-design-for-wedding-cards-invitations-perfumery-vect.jpg);
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .font-primary {
-  color: #00abae;
+  color: #a148dd;
 }
 
 .title-icon {
@@ -25,8 +30,12 @@ h2 {
   margin-bottom: 20px;
 }
 
-a .nav-link-font-black {
+a .font-black {
   color: #000 !important;
+}
+
+a .navbar {
+  font-weight: bold;
 }
 
 /* Time to make this look pretty
@@ -57,7 +66,7 @@ About */
 
 #about .skills {
   font-size: 15px;
-  color: #00abae;
+  color: #43215e;
   margin-bottom: 10px;
 }
 
