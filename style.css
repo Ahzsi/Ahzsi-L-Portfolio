@@ -15,6 +15,20 @@ body {
   font-weight: bold;
 }
 
+p {
+  font-size: 14px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+a .nav-link-font-black {
+  color: #000 !important;
+}
+
 /* Time to make this look pretty
 
 About */
@@ -59,4 +73,23 @@ About */
 
 #about .icons a {
   color: #000;
+}
+
+/****This is where the project stuff goes *****/
+
+#project {
+  margin: 60px auto;
+  width: 80%;
+}
+
+#project h2 {
+  text-align: center;
+}
+
+#project .card {
+  width: 100%;
+}
+
+#project .card-title {
+  font-weight: bold;
 }
